@@ -13,7 +13,7 @@ export default {
     script: [
       { src: 'https://unpkg.com/animejs@3.0.1/lib/anime.min.js' },
       { src: 'https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js' },
-      { src: './assets/js/main.js', defer: true }
+      { src: '/js/main.js', defer: true }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
