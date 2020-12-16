@@ -4,13 +4,13 @@
       <div class="site-header-inner">
         <div class="brand header-brand">
           <h1 class="m-0">
-            <a href="#">
+            <NuxtLink to="/">
               <img
                 class="header-logo-image"
                 src="~/assets/images/logo.svg"
                 alt="Logo"
               />
-            </a>
+            </NuxtLink>
           </h1>
         </div>
       </div>
