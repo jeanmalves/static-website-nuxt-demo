@@ -71,7 +71,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head() {
+    return {
+      title: "Startup Site - Pre order Now!",
+    };
+  },
+};
 </script>
 
 <style>

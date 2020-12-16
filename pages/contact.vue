@@ -60,5 +60,11 @@
   </main>
 </template>
 <script>
-export default {};
+export default {
+  head() {
+    return {
+      title: "Startup Site - Contact",
+    };
+  },
+};
 </script>
