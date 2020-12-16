@@ -3,17 +3,13 @@
     <div class="container">
       <div class="site-footer-inner">
         <div class="brand footer-brand">
-          <a href="#">
-            <img
-              class="header-logo-image"
-              src="~/assets/images/logo.svg"
-              alt="Logo"
-            />
-          </a>
+          <NuxtLink to="/">
+            <Logo />
+          </NuxtLink>
         </div>
         <ul class="footer-links list-reset">
           <li>
-            <a href="#">Contact</a>
+            <a href="/contact">Contact</a>
           </li>
           <li>
             <a href="#">About us</a>
@@ -69,5 +65,6 @@
 </template>
 
 <script>
+import { Logo } from '@/components/Logo';
 export default {};
 </script>

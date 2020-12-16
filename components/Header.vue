@@ -5,11 +5,7 @@
         <div class="brand header-brand">
           <h1 class="m-0">
             <NuxtLink to="/">
-              <img
-                class="header-logo-image"
-                src="~/assets/images/logo.svg"
-                alt="Logo"
-              />
+              <Logo />
             </NuxtLink>
           </h1>
         </div>
@@ -19,5 +15,6 @@
 </template>
 
 <script>
+import { Logo } from '@/components/Logo';
 export default {};
 </script>
