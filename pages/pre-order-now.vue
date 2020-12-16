@@ -41,9 +41,12 @@
                   </ul>
                 </div>
                 <div class="pricing-table-cta mb-8">
-                    <NuxtLink class="button button-primary button-shadow button-block" to="/contact">
-                        Pre order now
-                    </NuxtLink>
+                  <NuxtLink
+                    class="button button-primary button-shadow button-block"
+                    to="/contact"
+                  >
+                    Pre order now
+                  </NuxtLink>
                 </div>
               </div>
             </div>
@@ -58,7 +61,8 @@
           <h3 class="section-title mt-0">Still not convinced on buying?</h3>
           <div class="cta-cta">
             <a class="button button-primary button-wide-mobile" href="/contact"
-              >Get in touch</a>
+              >Get in touch</a
+            >
           </div>
         </div>
       </div>
