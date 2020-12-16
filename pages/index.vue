@@ -10,8 +10,12 @@
               to set it up once, and get beautiful results forever.
             </p>
             <div class="hero-cta">
-              <a class="button button-primary" href="#">Pre order now</a
-              ><a class="button" href="#">Get in touch</a>
+              <NuxtLink class="button button-primary" to="/pre-order-now">
+                Pre order now
+              </NuxtLink>
+              <NuxtLink class="button" to="/contact">
+                Get in touch
+              </NuxtLink>
             </div>
           </div>
           <div class="hero-figure anime-element">
